@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "github:testing-library/user-event",
+    "react-scripts": "^5.0.1"
+  }
+}
