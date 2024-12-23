@@ -96,7 +96,7 @@ function App2() {
           <Route path="/about" element={<Aboutus/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/footer" element={<Footer/>} />
-          {/* <Route path="/details" element={<Details/>}/> */}
+          
         </Routes>
       </div>
     </Router>
