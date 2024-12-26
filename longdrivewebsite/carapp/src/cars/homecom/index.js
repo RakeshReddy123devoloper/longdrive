@@ -3,9 +3,10 @@ import "./index.css"; // Add custom styles here
 import img2 from "../new-img/homebanner.webp";
 import img3 from "../new-img/location.webp";
 import { useNavigate } from "react-router-dom";
+
 function Home(){
   const navigate = useNavigate();
-  const handleNavigation = () => {
+  const handleClick = () => {
     navigate("/footer"); // Replace "/next-page" with your desired route
   };
   return (
@@ -46,7 +47,7 @@ function Home(){
         <div>
           <h1>Explore cars near you</h1>
           <h3>20km around your location</h3>
-          <h2 className="clh2" onClick={handleNavigation}>
+          <h2 className="clh2" onClick={handleClick}>
             Get near you
           </h2>
         </div>

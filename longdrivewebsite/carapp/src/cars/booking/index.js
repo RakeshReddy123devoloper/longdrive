@@ -1,13 +1,14 @@
-// InstantBooking.js
+
 import React from 'react';
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+// Ensure this path is correct
 
 const InstantBooking = () => {
-  // const navigate = useNavigate(); // React Router hook for navigation
+  const navigate = useNavigate();
 
-  // const handleBookNow = () => {
-  //   navigate('/form1'); // Navigates to the /booking page
-  // };
+  const handleNavigation = () => {
+    navigate("/foo");
+  };
 
   return (
     <div style={styles.container}>
@@ -16,7 +17,7 @@ const InstantBooking = () => {
 
       {/* Instant Booking Button */}
       <div style={styles.buttonContainer}>
-        <button style={styles.button}>
+        <button style={styles.button} onClick={handleNavigation}>
           Book Now
         </button>
       </div>
@@ -44,4 +45,4 @@ const styles = {
   },
 };
 
-export default InstantBooking;
+export default InstantBooking; // Exporting App component for routing

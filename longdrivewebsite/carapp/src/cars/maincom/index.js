@@ -6,21 +6,24 @@ import Home from "../homecom/index";
 import "./app2.css"
 import  img1 from '../new-img/logo1.jpg'
 import Footer from "../nextpage/index";
-// import Form from "../form/index";
-// import Form1 from "../form1/index";
+// import InstantBooking from '../booking/index'; // Path to your component
+// import Form1 from "../form/index";
+
 // import Details from "../cards/index";
 function App2() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="*" element={<Home />} />
           <Route path="/services" element={<Blog/>} />
           <Route path="/about" element={<Aboutus/>} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/footer" element={<Footer/>} />
-          {/* <Route path="/form1" element={<Form1/>}/> */}
+            {/* <Route path="/" element={<InstantBooking />} />
+          <Route path="/foo" element={<Form1 />} /> */}
+        
         </Routes>
       </div>
     </Router>

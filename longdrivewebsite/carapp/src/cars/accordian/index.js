@@ -2,52 +2,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function BasicExample() {
   return (
-   
-//    <div>
-//     <h1 style={{textAlign:"center"}}> frequently asked questions</h1>
-//      <Accordion defaultActiveKey="0">
-//       <Accordion.Item eventKey="0">
-//         <Accordion.Header> Documents required?</Accordion.Header>
-//         <Accordion.Body>
-//         Age 18+
 
-// After Booking Successful you can Upload your selfie photo & Aadhar card & Driving License in App one time only from next booking documents not required.
-
-// Our team will verify & Approve your documents.
-
-// You must upload your documents before your pickup time otherwise your booking will be Auto cancelled no refund.
-         
-//         </Accordion.Body>
-//       </Accordion.Item>
-//       <Accordion.Item eventKey="1">
-//         <Accordion.Header>Damage protection</Accordion.Header>
-//         <Accordion.Body>
-//         If You Choose
-
-// No Deposit Damage Protection
-
-// You Pay Up-to 20000rs Only in case of damage
-
-// If Major Damage Customer should bring fir copy or panchanama from police station Customer should support for Insurance
-
-// Customer should support for Insurance Verification Until Approved
-
-// If You Choose
-
-// Bike + Rc
-
-// No Insurance Will be Applied full Damage Amount Lakhs Of Money Should be Paid by Customer
-
-// In-case of damage Rent Amount No Refund & No Adjustment for Another Car booking.
-
-// Note: In case vehicle damage estimates exceed Rs 2,00,000, a mandatory deductible equivalent to the estimated damage amount is required.
-//         </Accordion.Body>
-//       </Accordion.Item>
-//     </Accordion>
-    
-    
-//    </div>
-   
  <div>
       <h1 style={{ textAlign: "center" }}>Frequently Asked Questions</h1>
       
