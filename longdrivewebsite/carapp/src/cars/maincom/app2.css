@@ -1,6 +1,6 @@
 /* General Navbar styles */
 .navbar {
-  background-color: #1c1d1f;
+  background-color: #ec550f;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -9,7 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  margin-top: -3vh;
+  /* margin-top: -3vh; */
 }
 
 .navbar-container {

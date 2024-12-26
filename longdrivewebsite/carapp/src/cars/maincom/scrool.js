@@ -2,7 +2,7 @@ import React from 'react';
 
 function App1() {
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
+    <div style={{ fontFamily: 'Arial, sans-serif',  }}>
       {/* Scrolling Text */}
       <div
         style={{
@@ -95,7 +95,7 @@ function App1() {
           color: 'white',
           height: '10vh',
           alignItems: 'center',
-          marginTop: '-3vh',
+          // marginTop: '-3vh',
         }}
       >
         <h2

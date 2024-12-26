@@ -1,64 +1,4 @@
-/* Home Component Styles */
-/* .home-container {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .home-title {
-    font-size: 2rem;
-    color: #007bff;
-    margin-bottom: 20px;
-  }
-  
-  .store-links {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .store-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .store-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .features-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: #333;
-    font-size: 1.2rem;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .features-list li {
-    margin-bottom: 10px;
-  }
-  
-  .features-list li::before {
-    content: "✔️ ";
-    color: #28a745;
-    margin-right: 5px;
-  }
-  .div1{
-    display: flex;
-    flex-direction:"wrap";
-  } */
 
-
-  /* Home Component Styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -68,7 +8,7 @@ body {
   .home-container {
     padding: 20px;
     text-align: center;
-    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient background */
+    background: linear-gradient(135deg, #007bff, #689cd1); /* Gradient background */
     color: white;
     border-radius: 10px;
     margin: 20px auto;
@@ -145,16 +85,7 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
-  /* .div2{
-    display: flex;
-    background-color: #28a745;
-flex-direction: row;
- gap:17vw;
-  }
-  .img1{
-    width: 50%;
-  } */
-  /* General container for the section */
+ 
 .div21 {
     display: flex;
     justify-content:space-between;

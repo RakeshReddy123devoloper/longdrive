@@ -145,4 +145,50 @@
   .callus-button:hover {
     opacity: 0.8;
   }
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+  }
   
+  .road {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .car {
+    position: absolute;
+    bottom: 10px;
+    left: -100px;
+    width: 80px;
+    height: auto;
+    animation: moveCar 5s ease-in-out infinite, bounceCar 1s ease-in-out infinite;
+  }
+  
+  @keyframes moveCar {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+  @keyframes bounceCar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
