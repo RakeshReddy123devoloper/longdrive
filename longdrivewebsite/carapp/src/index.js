@@ -15,6 +15,7 @@ import Choose from './cars/choose/index';
 import BasicExample from './cars/accordian/index';
 import ContactUs from './cars/contactus/index';
 import App4 from './cars/bookingrouter/index';
+import Footer2 from './cars/foo/index';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -29,7 +30,7 @@ root.render(
 <BasicExample/>
 <ContactUs/>
 <App4/>
-
+<Footer2/>
   </React.StrictMode>
 );
 
