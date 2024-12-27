@@ -709,6 +709,176 @@ import React, { useState, useEffect } from "react";
 const cars = [
   { name: "Maruthi Wagon R", price: 1488, fuel: "Petrol", seating: "5 Seater", transmission: "Manual", phone: "6304699210" },
   // Add other cars here...
+   {
+        name: "Renault Kwid",
+        price: "₹ 1488/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Manual",
+        phone: "9948638817", // Example phone number
+      },
+      {
+        name: "Renault Kiger",
+        price: "₹ 1680/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Manual",
+  
+        phone: "8465084918", // Example phone number
+      },
+      {
+        name: "Maruthi Swift",
+        price: "₹ 1680/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Manual",
+        
+        phone: "9848734272", // Example phone number
+      },
+      {
+        name: "Tata Punch",
+        price: "₹ 1776/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Manual",
+        
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Hyundai i20",
+        price: "₹ 1800/day",
+        fuel: "Diesel",
+        seating: "5 Seater",
+        transmission: "Automatic",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Toyota Innova Crysta",
+        price: "₹ 2500/day",
+        fuel: "Diesel",
+        seating: "7 Seater",
+        transmission: "Automatic",
+       
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Kia Seltos",
+        price: "₹ 2800/day",
+        fuel: "Diesel",
+        seating: "5 Seater",
+        transmission: "Automatic",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Mahindra XUV700",
+        price: "₹ 3000/day",
+        fuel: "Diesel",
+        seating: "7 Seater",
+        transmission: "Automatic",
+       
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Jeep Compass",
+        price: "₹ 3200/day",
+        fuel: "Diesel",
+        seating: "5 Seater",
+        transmission: "Manual",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Toyota Fortuner",
+        price: "₹ 3500/day",
+        fuel: "Diesel",
+        seating: "7 Seater",
+        transmission: "Automatic",
+        
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "MG Hector",
+        price: "₹ 3200/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Automatic",
+       
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Honda City",
+        price: "₹ 2000/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Automatic",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "BMW X1",
+        price: "₹ 4500/day",
+        fuel: "Diesel",
+        seating: "5 Seater",
+        transmission: "Automatic",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Mercedes-Benz C-Class",
+        price: "₹ 5000/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Automatic",
+        
+        phone: "1234567890", // Example phone number
+      },
+      {
+        name: "Audi Q5",
+        price: "₹ 6000/day",
+        fuel: "Diesel",
+        seating: "5 Seater",
+        transmission: "Automatic",
+       
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Nissan X-Trail",
+        price: "₹ 3500/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Manual",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Ford EcoSport",
+        price: "₹ 2200/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Automatic",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Skoda Kushaq",
+        price: "₹ 2500/day",
+        fuel: "Petrol",
+        seating: "5 Seater",
+        transmission: "Manual",
+      
+        phone: "6304699210", // Example phone number
+      },
+      {
+        name: "Volkswagen Taigun",
+        price: "₹ 2500/day",
+        fuel: "Diesel",
+        seating: "5 Seater",
+        transmission: "Automatic",
+      
+        phone: "9701574932", // Example phone number
+      },
 ];
 
 const Form1 = () => {

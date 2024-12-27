@@ -30,6 +30,7 @@ const styles = {
   container: {
     padding: '20px',
     textAlign: 'center',
+    backgroundColor:"lightgrey"
   },
   buttonContainer: {
     marginTop: '20px',
