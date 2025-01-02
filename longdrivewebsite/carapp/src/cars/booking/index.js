@@ -7,7 +7,7 @@ const InstantBooking = () => {
   const navigate = useNavigate();
 
   const handleNavigation = () => {
-    navigate("/foo");
+    navigate("/form1");
   };
 
   return (

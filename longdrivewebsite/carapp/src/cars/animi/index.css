@@ -1,11 +1,12 @@
 /* Add this to your CSS file (e.g., App.css) */
 .slider-container {
     width: 100%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
     box-sizing: border-box;
+    /* background-color: rgb(242, 123, 4); */
   }
   
   .slider {
@@ -47,6 +48,75 @@
   
     .slider-title {
       font-size: 1rem;
+    }
+  }
+  .attractive-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(135deg, #f54e65, #ffb37a);
+    border-radius: 15px;
+    color: #fff;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .sub-heading {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .animated-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    background: #fff;
+    color: #f54e65;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .animated-button:hover {
+    background: #ffe5d5;
+    color: #f54e65;
+  }
+  
+  .icon-animation {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .location-icon {
+    width: 150px;
+    height: auto;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
     }
   }
   

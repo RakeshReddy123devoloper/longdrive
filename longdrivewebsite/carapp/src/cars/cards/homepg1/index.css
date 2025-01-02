@@ -1,0 +1,32 @@
+.div21 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px;
+  }
+  
+  .div21 h1, .div21 h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .clh2 {
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .clh2:hover {
+    text-decoration: underline;
+  }
+  
+  .img1 {
+    width: 200px;
+    height: auto;
+  }
+  

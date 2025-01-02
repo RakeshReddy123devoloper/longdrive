@@ -8,7 +8,6 @@ import App1 from './cars/maincom/scrool';
 // import Menu from './cars/menu/index';
 import App2 from './cars/maincom/index';
 import App3 from "./cars/searchpage/index"
-
 import CardSlider from './cars/animi/index';
 import Mobile1 from './cars/mobile1/index';
 import Choose from './cars/choose/index';

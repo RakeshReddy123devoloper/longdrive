@@ -179,4 +179,137 @@ body {
       margin: 0 auto;
     }
   }
+  .new-animations-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  .icon-wrapper {
+    margin: 20px 0;
+  }
+  
+  .rotating-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .rotating-icon img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .clh2 {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #ff9800;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clh2:hover {
+    background-color: #e68900;
+  }
+  
+  .car-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .car-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .car-card img {
+    max-width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .new-animations-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #ffc371);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-wrapper {
+    margin: 20px 0;
+  }
+  
+  .rotating-icon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: rotate 3s linear infinite;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .clh2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #fff;
+    color: #ff7eb3;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  .clh2:hover {
+    background: #ff7eb3;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.4);
+  }
   

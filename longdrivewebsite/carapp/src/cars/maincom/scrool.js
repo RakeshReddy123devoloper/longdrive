@@ -91,8 +91,8 @@ function App1() {
           display: 'flex',
           flexWrap: 'nowrap',
           justifyContent: 'space-around',
-          backgroundColor: 'black',
-          color: 'white',
+          backgroundColor: 'yellow',
+          color: 'black',
           height: '10vh',
           alignItems: 'center',
           // marginTop: '-3vh',
@@ -113,7 +113,7 @@ function App1() {
           }}
         >
           <a
-            style={{ textDecoration: 'none', color: 'white' }}
+            style={{ textDecoration: 'none', color: 'black' }}
             href="tel:6304699210"
           >
             6304699210

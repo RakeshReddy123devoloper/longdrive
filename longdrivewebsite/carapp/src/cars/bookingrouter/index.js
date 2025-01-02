@@ -12,7 +12,7 @@ function App4() {
       <div>
         <Routes>
             <Route path="/" element={<InstantBooking />} />
-          <Route path="/foo" element={<Form1 />} />
+          <Route path="/form1" element={<Form1 />} />
         
         </Routes>
       </div>

@@ -31,7 +31,7 @@ const CardSlider1 = () => {
     <div className="slider-container">
       <div className="slider">
         <AnimatePresence>
-          <motion.div
+        <motion.div
             key={cars[currentIndex].id}
             initial={{ x: "100%" }}
             animate={{ x: 0 }}

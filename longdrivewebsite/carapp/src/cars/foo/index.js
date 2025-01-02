@@ -1,6 +1,6 @@
 import React from "react";
 import "./index1.css"; // Add custom CSS here
-import Footer from "../nextpage";
+// import Footer from "../nextpage";
 
 function footer2() {
   return (
@@ -58,4 +58,4 @@ function footer2() {
     </footer>
   );
 }
-export default Footer;
+export default footer2;
