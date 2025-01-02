@@ -375,30 +375,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      {/* New Animations Section */}
-      {/* <motion.div
-        className="new-animations-container"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
-        <motion.h1 variants={headingVariants}>Unleash Your Adventure</motion.h1>
-        <motion.div className="icon-wrapper">
-          <motion.div className="rotating-icon" variants={iconVariants} whileHover="hover">
-            <img src={img3} alt="Adventure Icon" />
-          </motion.div>
-        </motion.div>
-        <motion.h2
-          className="clh2"
-          whileHover="hover"
-          whileTap="tap"
-          variants={buttonVariants}
-          onClick={handleClick}
-        >
-          Get cars near you
-        </motion.h2>
-      </motion.div> */}
       <motion.div
   className="new-animations-container"
   initial={{ opacity: 0, y: 50 }}

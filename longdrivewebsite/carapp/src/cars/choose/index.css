@@ -1,98 +1,112 @@
-/* index.css */
+
+  /* index.css */
+
+/* Define custom colors */
+:root {
+  --primary-color: #967b96; /* Background color for the container */
+  --secondary-color: #f4f1f4; /* Lighter background for elements */
+  --text-primary: #333; /* Primary text color */
+  --text-secondary: #555; /* Secondary text color */
+  --accent-color: #6a4f6a; /* Accent color for borders or highlights */
+  --box-shadow-color: rgba(0, 0, 0, 0.1); /* Box shadow color */
+}
 
 /* Container to hold all the content */
 .why-choose-us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background:#0A97B0; /* Light background color */
-    /* min-height: 100vh; */
-     /* Full viewport height */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-  }
-  
-  /* Features section styling */
-  .features {
-    flex: 1 1 40%;
-    padding: 20px;
-    margin-right: 20px;
-  }
-  
-  .features h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .features ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .features li {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #555;
-  }
-  
-  /* Images section styling */
-  .images {
-    flex: 1 1 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .car-image img {
-    width: 100%;
-    max-width: 500px; /* Limit max-width for images */
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Responsive design for smaller screens */
-  @media (max-width: 768px) {
-    .why-choose-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: var(--primary-color); /* Custom color variable */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+/* Features section styling */
+.features {
+  flex: 1 1 40%;
+  padding: 20px;
+  margin-right: 20px;
+  background: var(--secondary-color); /* Lighter background */
+  border-radius: 8px;
+}
+
+.features h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.features ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+/* Images section styling */
+.images {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-image img {
+  width: 100%;
+  max-width: 500px; /* Limit max-width for images */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--box-shadow-color); /* Custom shadow color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .why-choose-us {
       flex-direction: column; /* Stack the sections vertically */
       text-align: center; /* Center the text */
-    }
-  
-    .features {
+  }
+
+  .features {
       margin-bottom: 20px; /* Add space below the features on smaller screens */
       flex: 1 1 100%; /* Take up full width on small screens */
-    }
-  
-    .images {
+  }
+
+  .images {
       flex: 1 1 100%; /* Take up full width on small screens */
       justify-content: center;
-    }
-  
-    .car-image img {
+  }
+
+  .car-image img {
       max-width: 80%; /* Make the image smaller on smaller screens */
-    }
-  
-    .features h2 {
+  }
+
+  .features h2 {
       font-size: 20px; /* Reduce font size on smaller screens */
-    }
-  
-    .features li {
+  }
+
+  .features li {
       font-size: 14px; /* Reduce font size for list items */
-    }
   }
-  
-  @media (max-width: 480px) {
-    .features h2 {
+}
+
+@media (max-width: 480px) {
+  .features h2 {
       font-size: 18px; /* Smaller font size on very small screens */
-    }
-  
-    .features li {
-      font-size: 12px; /* Even smaller font size for mobile */
-    }
-  
-    .car-image img {
-      max-width: 90%; /* Image size even smaller on very small screens */
-    }
   }
-  
+
+  .features li {
+      font-size: 12px; /* Even smaller font size for mobile */
+  }
+
+  .car-image img {
+      max-width: 90%; /* Image size even smaller on very small screens */
+  }
+}
+
+
+
+

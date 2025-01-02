@@ -6,6 +6,9 @@ import Home from "../homecom/index";
 import "./app2.css"
 import  img1 from '../new-img/logo1.jpg'
 import Footer from "../nextpage/index";
+import Blog from "../blog/index";
+import About from "../aboutus/index";
+import ContactUs from "../contact/index";
 // import InstantBooking from '../booking/index'; // Path to your component
 // import Form1 from "../form/index";
 
@@ -16,10 +19,10 @@ function App2() {
       <div>
         <Navbar/>
         <Routes>
-          <Route path="*" element={<Home />} />
+          <Route path="*" element={<Home/>} />
           <Route path="/services" element={<Blog/>} />
-          <Route path="/about" element={<Aboutus/>} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="/footer" element={<Footer/>} />
             {/* <Route path="/" element={<InstantBooking />} />
           <Route path="/foo" element={<Form1 />} /> */}
@@ -58,7 +61,7 @@ function Navbar() {
           </li>
           <li>
             <Link className="home1" to="/services" onClick={() => setIsMenuOpen(false)}>
-              Services
+              Blog
             </Link>
           </li>
           <li>
@@ -83,16 +86,13 @@ function Navbar() {
 //   return <h1>Welcome to the Home Page</h1>;
 // }
 
-function Blog() {
-  return <h1>Our Services</h1>;
-}
 
-function Aboutus() {
-  return <h1>About Us</h1>;
-}
+// function Aboutus() {
+//   return <h1>About Us</h1>;
+// }
 
-function Contact() {
-  return <h1>Contact Us</h1>;
-}
+// function Contact() {
+//   return <h1>Contact Us</h1>;
+// }
 
 export default App2;
