@@ -3,7 +3,7 @@
 
 /* Define custom colors */
 :root {
-  --primary-color: #967b96; /* Background color for the container */
+  --primary-color:#8200E2; /* Background color for the container */
   --secondary-color: #f4f1f4; /* Lighter background for elements */
   --text-primary: #333; /* Primary text color */
   --text-secondary: #555; /* Secondary text color */

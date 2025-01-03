@@ -94,7 +94,7 @@ import React from 'react';
 
 // Define custom colors
 const colors = {
-  primaryBackground: '#074799',
+  primaryBackground: '#8200E2',
   secondaryBackground: '#25d366', // WhatsApp color
   buttonCallBackground: '#007bff',
   textPrimary: '#ffffff',

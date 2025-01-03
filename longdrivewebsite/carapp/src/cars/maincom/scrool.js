@@ -37,7 +37,7 @@ function App1() {
               listStyleType: 'none',
             }}
           >
-            <li>Book Now</li>
+            <li>Book now</li>
             <li>Neatly Washed</li>
             <li>No Deposit</li>
             <li>Unlimited Kilometers</li>
@@ -91,7 +91,7 @@ function App1() {
           display: 'flex',
           flexWrap: 'nowrap',
           justifyContent: 'space-around',
-          backgroundColor:"#A888B5",
+          backgroundColor:"#6200C5",
           color: 'white',
           height: '10vh',
           alignItems: 'center',
