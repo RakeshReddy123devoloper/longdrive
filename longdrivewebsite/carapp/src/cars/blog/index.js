@@ -155,7 +155,7 @@ const Blog = () => {
       </main>
       <footer style={styles.footer}>
         <p>Long Drive Blog &copy; 2025 | All Rights Reserved</p>
-        <p>Follow us on: <a href="#" style={styles.link}>Facebook</a> | <a href="#" style={styles.link}>Instagram</a> | <a href="#" style={styles.link}>Twitter</a></p>
+        <p>Follow us on: <a href="https://www.facebook.com/selfdrivecarsbylongdrivecars/" style={styles.link}>Facebook</a> | <a href="https://www.instagram.com/longdrivecars_official/?hl=en" style={styles.link}>Instagram</a> | <a href="https://x.com/i/flow/login?redirect_after_login=%2Fldhfilm" style={styles.link}>Twitter</a></p>
       </footer>
     </div>
   );

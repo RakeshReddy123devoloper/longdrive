@@ -11,7 +11,7 @@ function App1() {
           position: 'relative',
     
           height: '60px',
-          backgroundColor: '#007bff',
+          // backgroundColor: '#8174A0',
           color: '#fff',
           display: 'flex',
           alignItems: 'center',
@@ -31,7 +31,7 @@ function App1() {
               display: 'flex',
               flexWrap: 'nowrap',
               gap: '5vw',
-              color: 'white',
+              color: 'black',
               margin: 0,
               padding: 0,
               listStyleType: 'none',
@@ -91,8 +91,8 @@ function App1() {
           display: 'flex',
           flexWrap: 'nowrap',
           justifyContent: 'space-around',
-          backgroundColor: 'yellow',
-          color: 'black',
+          backgroundColor:"#A888B5",
+          color: 'white',
           height: '10vh',
           alignItems: 'center',
           // marginTop: '-3vh',
@@ -113,7 +113,7 @@ function App1() {
           }}
         >
           <a
-            style={{ textDecoration: 'none', color: 'black' }}
+            style={{ textDecoration: 'none', color: 'white' }}
             href="tel:6304699210"
           >
             6304699210

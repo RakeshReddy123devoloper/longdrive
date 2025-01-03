@@ -1,7 +1,7 @@
 /* General Navbar styles */
 .navbar {
-  background-color: #FF8383;
-  color: black;
+  background-color:#A100FF;
+  color: rgb(251, 248, 248);
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@
 
 .menu li a {
   text-decoration: none;
-  color: rgb(21, 20, 20);
+  color: rgb(241, 239, 239);
   font-size: 20px;
   font-weight: bold;
 text-align: center;
@@ -77,7 +77,7 @@ text-align: center;
     position: absolute;
     top: 90px;
     left: 30px;
-    background-color: #7a889a;
+    background-color: #441752;
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
