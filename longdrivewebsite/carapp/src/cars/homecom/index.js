@@ -343,17 +343,17 @@ function Home() {
       <div className="home-container">
         {/* Main Heading */}
         <h1 className="home-title">
-          Install Long Drive Cars Mobile App & Start Your Journey!
+              Let's go for a long drive with no destinations
         </h1>
         {/* Store Links */}
-        <div className="store-links">
-          <motion.button className="store-button" whileHover="hover" variants={buttonVariants}>
+        {/* <div className="store-links">
+         <a href="https://apps.apple.com/in/app/owner-app-long-drive-cars/id6476489838"><motion.button className="store-button" whileHover="hover" variants={buttonVariants}>
             Android iOS
-          </motion.button>
-          <motion.button className="store-button" whileHover="hover" variants={buttonVariants}>
+          </motion.button></a>
+         <a href="https://play.google.com/store/apps/details?id=com.long_drive_cars.car&hl=en_IN"> <motion.button className="store-button" whileHover="hover" variants={buttonVariants}>
             Google Play Store
-          </motion.button>
-        </div>
+          </motion.button></a>
+        </div> */}
         {/* List of Features */}
         <div className="div1">
           <div>

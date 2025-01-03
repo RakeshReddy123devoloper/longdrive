@@ -230,7 +230,7 @@ const App3 = () => {
             className={`car-card ${index % 2 === 0 ? "style-one" : "style-two"}`}
             key={index}
           >
-            <img src={car.image} alt={car.name} />
+            <img src={car.image} alt={car.name} className="img"/>
             <h3>{car.name}</h3>
             <p className="price">{car.price}</p>
             <p>Fuel: {car.fuel}</p>
