@@ -100,7 +100,7 @@ function Mobile1() {
     // Submit data to Firebase
     axios
       .post(
-        "https://carwebsite-c2012-default-rtdb.firebaseio.com/register.json",
+        "https://carwebsite-c2012-default-rtdb.firebaseio.com/CallBackRequestData.json",
         { mobileNumber } // Send the mobile number in an object
       )
       .then(() => {
@@ -117,11 +117,11 @@ function Mobile1() {
   };
 
   return (
-    <div className="callback-container">
+    <div className="callback-container custom-cursor">
       <h2>Can't find the perfect car?</h2>
       <p>Let us help you on a quick call</p>
 
-      <form onSubmit={handleSubmit}>
+      <form  onSubmit={handleSubmit}>
         <div className="form-wrapper">
           <div className="input-group">
             <label htmlFor="mobileNumber">Enter mobile number</label>

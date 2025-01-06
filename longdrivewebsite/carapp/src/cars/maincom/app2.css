@@ -1,6 +1,9 @@
 /* General Navbar styles */
 .navbar {
-  background-color:#0f008d;
+  /* background-color:#d63f09; */
+ background-color:
+
+ #f77e0c;
   color: rgb(251, 248, 248);
   padding: 10px 20px;
   display: flex;
@@ -120,3 +123,9 @@ text-align: center;
   }
   
 }
+
+
+
+
+
+
